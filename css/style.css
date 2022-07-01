@@ -1,0 +1,101 @@
+body{
+    background-color: #a5b7c9;
+}
+
+
+/* Parte destinada parada a estilização do navbar */
+.navBar{
+    width: calc(100%-30px);
+    height: 40px;
+    background-color: #0f3c70;
+    display: grid;
+
+    grid-template: auto / auto auto auto;
+    align-items: center;
+
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 12px;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.links:hover{
+    background-color: #4e7eb6;
+    box-shadow: 0px 0px 20px 2px #0c1a2b;    
+}
+
+.links:active{
+    background-color: #9cc2ee;
+}
+
+.leftPart{
+    margin-left: 10%;
+    text-align: center;
+    
+}
+
+.middlePart{
+    text-align: center;
+   
+}
+
+.rightPart{
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Parte destinada parada a estilização do cards */
+
+section{
+    padding: 50px;
+}
+
+.card{
+    display: grid;
+    grid-template: auto / auto auto;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 75%;
+    height: 275px;
+    background-color: #2f6396;
+    box-shadow: -15px 15px #0f1f31;
+}
+
+:root{
+    --boxImage : 220px;
+}
+
+.image{
+    margin-left: 20px;
+    border: 1px solid black;
+    width: var(--boxImage);
+    height: var(--boxImage);
+   
+}
+
+.perfil{
+    background-image: url(../images/perfil2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.about{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
